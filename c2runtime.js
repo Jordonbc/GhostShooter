@@ -24922,7 +24922,9 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SubVar,
 	cr.plugins_.Sprite.prototype.cnds.OnCollision,
 	cr.plugins_.Sprite.prototype.acts.SubInstanceVar,
+	cr.system_object.prototype.cnds.EveryTick,
 	cr.plugins_.Sprite.prototype.cnds.PickByUID,
+	cr.plugins_.Sprite.prototype.acts.SetPos,
 	cr.behaviors.scrollto.prototype.acts.SetEnabled,
 	cr.plugins_.gamepad.prototype.cnds.CompareAxis,
 	cr.behaviors.EightDir.prototype.acts.SimulateControl,
@@ -24930,11 +24932,12 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.SetTowardPosition,
 	cr.plugins_.Mouse.prototype.exps.X,
 	cr.plugins_.Mouse.prototype.exps.Y,
-	cr.system_object.prototype.cnds.EveryTick,
-	cr.plugins_.Sprite.prototype.acts.SetPos,
 	cr.plugins_.Keyboard.prototype.cnds.IsKeyDown,
 	cr.system_object.prototype.acts.SetGroupActive,
 	cr.plugins_.gamepad.prototype.cnds.HasGamepads,
+	cr.behaviors.EightDir.prototype.acts.SetEnabled,
+	cr.plugins_.gamepad.prototype.cnds.OnGamepadDisconnected,
+	cr.plugins_.gamepad.prototype.cnds.OnGamepadConnected,
 	cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
 	cr.system_object.prototype.acts.SetTimescale,
 	cr.plugins_.Mouse.prototype.cnds.OnRelease,
@@ -24949,7 +24952,5 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SetPixelRounding,
 	cr.system_object.prototype.cnds.Repeat,
 	cr.system_object.prototype.exps.loopindex,
-	cr.plugins_.Sprite.prototype.acts.SetEffectEnabled,
-	cr.plugins_.gamepad.prototype.cnds.OnGamepadDisconnected,
-	cr.plugins_.gamepad.prototype.cnds.OnGamepadConnected
+	cr.plugins_.Sprite.prototype.acts.SetEffectEnabled
 ];};
