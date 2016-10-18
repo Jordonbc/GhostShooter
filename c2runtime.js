@@ -24935,7 +24935,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Keyboard.prototype.cnds.IsKeyDown,
 	cr.system_object.prototype.acts.SetGroupActive,
 	cr.plugins_.gamepad.prototype.cnds.HasGamepads,
-	cr.behaviors.EightDir.prototype.acts.SetEnabled,
 	cr.plugins_.gamepad.prototype.cnds.OnGamepadDisconnected,
 	cr.plugins_.gamepad.prototype.cnds.OnGamepadConnected,
 	cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
