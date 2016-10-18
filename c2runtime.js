@@ -24933,6 +24933,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Keyboard.prototype.cnds.IsKeyDown,
 	cr.plugins_.Sprite.prototype.acts.SetPos,
 	cr.system_object.prototype.acts.SetGroupActive,
+	cr.plugins_.gamepad.prototype.cnds.HasGamepads,
 	cr.plugins_.Sprite.prototype.acts.SetInstanceVar,
 	cr.system_object.prototype.acts.SetTimescale,
 	cr.plugins_.Mouse.prototype.cnds.OnRelease,
@@ -24947,6 +24948,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.SetPixelRounding,
 	cr.system_object.prototype.cnds.Repeat,
 	cr.system_object.prototype.exps.loopindex,
-	cr.plugins_.gamepad.prototype.cnds.HasGamepads,
-	cr.plugins_.Sprite.prototype.acts.SetEffectEnabled
+	cr.plugins_.Sprite.prototype.acts.SetEffectEnabled,
+	cr.plugins_.gamepad.prototype.cnds.OnGamepadDisconnected,
+	cr.plugins_.gamepad.prototype.cnds.OnGamepadConnected
 ];};
